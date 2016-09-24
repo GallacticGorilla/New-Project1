@@ -1,4 +1,4 @@
-// 00.global.scss
+// \00.global.scss
 @import '../variables.scss';
 
 /********************************************************** Viewport */
@@ -17,7 +17,7 @@
 
   http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 */
-
+/*
 html {
   box-sizing: 'border-box';
 }
@@ -27,7 +27,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+*/
 
 /********************************************************** General */
 

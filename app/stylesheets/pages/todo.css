@@ -1,0 +1,26 @@
+.todo-container {
+  width: 750px;
+  min-width: 750px;
+  background-color: #262626;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.todo-container .title-row {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+.todo-container .todo {
+  font-size: 24px;
+  padding: 12px 0px 20px 25px;
+  height: 55px;
+  color: #5FF2CB;
+  font-weight: 600;
+  font-family: Courier New;
+}
+.todo-container .close {
+  padding-right: 35px;
+  font-size: 32px;
+}
