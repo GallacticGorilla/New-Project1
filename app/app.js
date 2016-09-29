@@ -11,6 +11,8 @@ require('bootstrap');
 import './stylesheets/base.scss';
 import _ from 'underscore';
 import todoController from './pages/todo';
+import newProjectController from './pages/newProject';
+
 //import multimediaController from './pages/multimedia';
 
 // on document load
@@ -29,9 +31,11 @@ $(function(){
     // which page are we on???
     if (window.location.pathname === '/pages/todo.html'){
         todoController.init();
-    }   else if (window.location.pathname === '/pages/todo.html'){
-        console.log('multmedia page has started sucka');
+    }   else if (window.location.pathname === '/pages/newProject.html'){
+          newProjectController.init();
+          console.log('multmedia page has started ');
     }  
+
     // todo.init();
 
 });
