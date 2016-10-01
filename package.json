@@ -63,6 +63,7 @@
     "redux-thunk": "^2.0.1",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.0",
+    "three": "0.81.2",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
     "underscore": "~1.8.3"
