@@ -5,9 +5,9 @@ Inline-style:
 							|__     __
 							|__] x |__ x
        
-[Alt-H1] Bobby Chan
+[Alt-H1](Bobby Chan)
 
-[I'm an inline-style link](https://www.linkedin.com/in/bobby-chan-b5380812a)
+[My LinkedIn](https://www.linkedin.com/in/bobby-chan-b5380812a)
 
 codepen
 linkedin
