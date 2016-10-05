@@ -19,7 +19,7 @@ import canvasController from './pages/canvas';
 
 // on document load
 $(function(){
-
+  // Kick off the app! 
   console.log('%c App Started', 'color:green');
 
  
@@ -29,18 +29,38 @@ $(function(){
     interpolate: /{{-([\s\S]+?)}}/g,
     escape:      /{{=([\s\S]+?)}}/g
   };
-    // Kick off the app! 
-    // which page are we on???
-    if (window.location.pathname === '/pages/todo.html'){
-      todoController.init();
-    } else if (window.location.pathname === '/pages/newProject.html'){
-      newProjectController.init();
-      console.log('multmedia page has started ');
-    } else if (window.location.pathname === '/pages/canvas.html'){
-      canvasController.init();
-      console.log('canvas page has started ');
-    } 
+    // My first Router: which page are we on?
+  switch(window.location.pathname){
+  case '/pages/todo.html':
+    todoController.init;
+    break;
+  case '/pages/newProject.html':
+    newProjectController.init;
+    break;
+  case '/pages/canvas.html':
+    canvasController.init;
+    break;
+  }
+
+console.log ('+++======+++');
+console.log ('');
+  
+});
+
+
+// console.log ('+++======+++')
+// console.log ('')
+// };
+
+    // if (window.location.pathname === '/pages/todo.html'){
+    //   todoController.init();
+    // } else if (window.location.pathname === '/pages/newProject.html'){
+    //   newProjectController.init();
+    //   console.log('multmedia page has started ');
+    // } else if (window.location.pathname === '/pages/canvas.html'){
+    //   canvasController.init();
+    //   console.log('canvas page has started ');
+    // } 
 
     // todo.init();
 
-});
