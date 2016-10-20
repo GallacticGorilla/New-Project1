@@ -1,0 +1,124 @@
+.container-fluid {
+  width: 100%;
+  min-width: 50px;
+  margin: 0 auto;
+  margin-top: 10px; 
+}
+.homeImage{
+	width: 100%;
+}
+nav {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+.navTitle {
+	position: absolute;
+	top: 45px;
+	left: 100px;
+}
+.col-sm-7 {
+    min-height: 1600px;
+    background-color: grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.text {
+  position: absolute;  
+  top: 100px;
+  left: 25px;
+  font-family: helvetica;
+  font-size: 50px;
+}
+.col-sm-3 {
+      min-height: 1600px;
+      background-color: grey; 
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.circle {
+  position:absolute;
+  display: block;
+  background: purple; /*mov*/
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 10px;
+  animation-name: bounceUpDown; 
+  animation-duration: 2.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.circle1 {
+  position:absolute;
+  display: block;
+  background: teal;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 15px;
+  animation-name: bounceUpDown; 
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: 2; 
+}
+.circle2 {
+  position:absolute;
+  display: block;
+  background: rgb(169, 148, 194); /*mov*/
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  animation-name: bounceUpDown; 
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: 4;
+}
+  .circle4 {
+  position:absolute;
+  display: block;
+  background: rgb(169, 148, 194); /*mov*/
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 25px;
+  animation-name: bounceUpDown; 
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: 5;
+}
+.circle5 {
+  position:absolute;
+  display: block;
+  background: rgb(169, 148, 194); /*mov*/
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  animation-name: bounceUpDown; 
+  animation-duration: 2.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: 3;
+}
+.col-sm-2 {
+      min-height: 1600px;
+      background-color: grey;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+}
+
+@keyframes bounceUpDown {
+    0% {
+    transform: translateY(1em);
+    } 
+    100% {
+    transform: translateY(95em);
+    } 
+}

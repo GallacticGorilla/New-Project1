@@ -5,8 +5,8 @@ var app = {
   },
   render: function(){
     var diameter = 960,
-        format = d3.format(',d'),
-        color = d3.scale.category20c();
+      format = d3.format(',d'),
+      color = d3.scale.category20c();
     var bubble = d3.layout.pack()
         .sort(null)
         .size([diameter, diameter])
@@ -34,9 +34,8 @@ var app = {
           .text(function(d) { return d.className.substring(0, d.r / 3); });
     });
     // Returns a flattened hierarchy containing all leaf nodes under the root.
-      function classes(root) {
-        var classes = [];
-
+    function classes(root) {
+      var classes = [];
       function recurse(name, node) {
         if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
         else classes.push({packageName: name, className: node.name, value: node.size});

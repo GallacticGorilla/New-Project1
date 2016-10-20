@@ -18,7 +18,15 @@
   height: 55px;
   color: #5FF2CB;
   font-weight: 600;
-  font-family: Courier New;
+  font-family: Helvetica;
+  background-color: lightgrey;
+  &.completed {
+    background-color: inherit;
+  }
+  &.completed .todo-title {
+    color: lightgrey;
+    text-decoration: line-through;
+  }
 }
 .todo-container .close {
   padding-right: 35px;
