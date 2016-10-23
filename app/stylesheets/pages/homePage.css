@@ -1,124 +1,194 @@
 .container-fluid {
   width: 100%;
+  height: 100%;
   min-width: 50px;
-  margin: 0 auto;
-  margin-top: 10px; 
+  margin: 0;
+  padding: 0;
 }
 .homeImage{
 	width: 100%;
+	height: 1000px;
 }
 nav {
 	position: absolute;
-	top: 50px;
+	top: 550px;
 	left: 100px;
 }
 .navTitle {
 	position: absolute;
-	top: 45px;
+	top: 945px;
 	left: 100px;
 }
-.col-sm-7 {
-    min-height: 1600px;
-    background-color: grey;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.block1 {
+    min-height: 350px;
+    background-color: #c7bd77;
 }
-.text {
-  position: absolute;  
-  top: 100px;
-  left: 25px;
-  font-family: helvetica;
-  font-size: 50px;
+.block2 {
+    min-height: 350px;
+    background-color: #6b6f6e;
 }
-.col-sm-3 {
-      min-height: 1600px;
-      background-color: grey; 
-      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.block3 {
+    min-height: 350px;
+    background-color: #209273;
 }
-.circle {
-  position:absolute;
-  display: block;
-  background: purple; /*mov*/
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  top: 10px;
-  animation-name: bounceUpDown; 
-  animation-duration: 2.9s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
+.block4 {
+    min-height: 350px;
+    background-color: #6b6f6e;
 }
-.circle1 {
-  position:absolute;
-  display: block;
-  background: teal;
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  top: 15px;
-  animation-name: bounceUpDown; 
-  animation-duration: 2.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  z-index: 2; 
+.block5 {
+    min-height: 350px;
+    background-color: #145541;
 }
-.circle2 {
-  position:absolute;
-  display: block;
-  background: rgb(169, 148, 194); /*mov*/
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  top: 20px;
-  animation-name: bounceUpDown; 
-  animation-duration: 2.7s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  z-index: 4;
+.block6 {
+    min-height: 350px;
+    background-color: #22201f;
 }
-  .circle4 {
-  position:absolute;
-  display: block;
-  background: rgb(169, 148, 194); /*mov*/
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  top: 25px;
-  animation-name: bounceUpDown; 
-  animation-duration: 2.3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  z-index: 5;
+.block7 {
+    min-height: 350px;
+    background-color: #91E1AF;
 }
-.circle5 {
-  position:absolute;
-  display: block;
-  background: rgb(169, 148, 194); /*mov*/
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  top: 20px;
-  animation-name: bounceUpDown; 
-  animation-duration: 2.2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  z-index: 3;
+.block8{
+	min-height: 350px;
+  background-color: #145541;
 }
-.col-sm-2 {
-      min-height: 1600px;
-      background-color: grey;
-      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+.block9 {
+    min-height: 350px;
+    background-color: #262322;
+}
+.block10 {
+    min-height: 350px;
+    background-color: #145541;
+}
+.block11 {
+    min-height: 350px;
+    background-color: #767a79;
+}
+.block12 {
+    min-height: 350px;
+    background-color: #22201f;
 }
 
-@keyframes bounceUpDown {
-    0% {
-    transform: translateY(1em);
-    } 
-    100% {
-    transform: translateY(95em);
-    } 
+
+.col-sm-3 {
+	padding: 0;
+}
+.row {
+	margin: 0;
+}
+.col-sm-12{
+	padding: 0;
+}
+.planeImage {
+	position: absolute;
+	height: 125px;
+	top: 70px;
+	left: 155px;
+}
+.contactMe {
+	position: absolute;
+	top: 220px;
+	left: 135px;
+	color: #29A68B;
+	font-size: 4em;
+	font-family: "Patrick Hand SC";
+}
+.welcome1 {
+	font-family: "Patrick Hand SC";
+	color:	#262322;
+	font-size: 5em;
+	position: absolute;
+	top: 25px;
+	left: 30px;
+}
+.welcome2 {
+	font-family: "Patrick Hand SC";
+	color:	#262322;
+	font-size: 5em;
+	position: absolute;
+	top: 95px;
+	left: 30px;
+}
+.welcome3 {
+	font-family: "Patrick Hand SC";
+	color:	#262322;
+	font-size: 5em;
+	position: absolute;
+	top: 150px;
+	left: 30px;
+}
+.aboutMe2 {
+	font-family: "Patrick Hand SC";
+	color:	#262322;
+	font-size: 5.5em;
+	position: absolute;
+	top: 130px;
+	left: 110px;
+	font-style: oblique;
+}
+.aboutMe1 {
+	font-family: "Patrick Hand SC";
+	color:	#767a79;
+	font-size: 5.5em;
+	position: absolute;
+	top: 128px;
+	left: 108px;
+	font-style: oblique;
+}
+.cameraImage {
+	position: absolute;
+	height: 145px;
+	top: 85px;
+	left: 140px;
+}
+.photographyText {
+	position: absolute;
+	top: 210px;
+	left: 100px;
+	color: #373737;
+	font-size: 5em;
+	font-family: "Patrick Hand SC";
+}
+.designWork {
+	position: absolute;
+	top: 248px;
+	left: 235px;
+	color: #29A68B;
+	font-size: 2.75em;
+	font-family: "helvetica";
+}
+.emblemImage {
+	position: absolute;
+	height: 255px;
+	top: 45px;
+	left: 85px;
+}
+.jsImage {
+	position: absolute;
+	height: 200px;
+	top: 65px;
+	left: 120px;
+}
+.codingText {
+	position: absolute;
+	top: 240px;
+	left: 155px;
+	color: #04110B;
+	font-size: 2em;
+	font-family: "cursive";
+}
+.pageTitle {
+	position: absolute;
+	top: 240px;
+	left: 555px;
+	color: white;
+	font-size: 12em;
+	font-family: "Cabin Sketch";
+}
+.pageTitleSub {
+	position: absolute;
+	top: 375px;
+	left: 640px;
+	color: white;
+	font-size: 4em;
+	font-family: "Cabin Sketch";
 }

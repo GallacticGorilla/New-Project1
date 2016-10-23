@@ -14,6 +14,7 @@ import todoController from './pages/todo';
 import newProjectController from './pages/newProject';
 import canvasController from './pages/canvas';
 import bbTodoController from './pages/bb_todo';
+import homePageController from './pages/homePage';
 
 
 //import multimediaController from './pages/multimedia';
@@ -38,6 +39,9 @@ $(function(){
     break;
   case '/pages/bb_todo.html':
     new bbTodoController();
+    break;
+  case '/':
+    homePageController.init();
     break;
   }
 
