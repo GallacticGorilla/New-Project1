@@ -15,6 +15,7 @@ import newProjectController from './pages/newProject';
 import canvasController from './pages/canvas';
 import bbTodoController from './pages/bb_todo';
 import homePageController from './pages/homePage';
+import photoSearchController from './pages/photoSearch';
 
 
 //import multimediaController from './pages/multimedia';
@@ -42,6 +43,9 @@ $(function(){
     break;
   case '/':
     homePageController.init();
+    break;
+  case '/pages/dataTest.html':
+    new photoSearchController();
     break;
   }
 

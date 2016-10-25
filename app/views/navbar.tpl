@@ -1,18 +1,21 @@
 <ul> 
 	<li>
-		<a href="/pages/todo.html">Todo App Jquery</a>
+		<a href="/pages/todo.html">About Me</a>
 	</li>
 	<li>
-		<a href="/pages/bb_todo.html">Todo App Backbone</a>
+		<a href="/pages/bb_todo.html">Web Dev</a>
 	</li>
 	<li>
-		<a href="/pages/multimedia.html">Multimedia</a>
+		<a href="/pages/multimedia.html">Design</a>
 	</li>
 	<li>
-		<a href="/pages/newProject.html">D3</a>
+		<a href="/pages/newProject.html">Photography</a>
 	</li>
 	<li>
-		<a href="/pages/canvas.html">Canvas Example</a>
+		<a href="/pages/canvas.html">Contact</a>
+	</li>
+	<li>
+		<a href="/pages/dataTest.html">Ajax</a>
 	</li>
 	<li>
 		<a href="/">Home Page</a>
