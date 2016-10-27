@@ -89,9 +89,8 @@ li {
 /* Images */
 .planeImage {
 	position: absolute;
-	height: 125px;
-	top: 70px;
-	left: 155px;
+	top: 50%;
+	left: 50%;
 }
 .cameraImage {
 	position: absolute;
