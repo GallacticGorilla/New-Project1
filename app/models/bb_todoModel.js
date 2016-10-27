@@ -1,20 +1,33 @@
-
+var $ = window.$;
 import Backbone from 'backbone';
-import lscache from 'lscache';
 
 var model = Backbone.Model.extend({
   defaults: {
     todos: []
   },
-  fetch: function(){
-    var savedTodos = lscache.get('todos');
-    if (savedTodos !== null){
-      this.set('todos', savedTodos);
-    }
+  fetch: function(callback){
+    var that = this;
+    $.ajax({
+      method: 'GET',
+      dataType: 'json',
+      url: '/api/todos',
+      success: function(todos){
+        that.set('todos', todos);
+        if (typeof callback === 'function'){
+        callback();
+       }
+      }
+    });
   },
   save: function(){
-    var todos = this.get('todos');
-    lscache.set('todos',todos);
+    $.ajax({
+      method: 'POST',
+      data: {
+        todos: JSON.stringify(this.get('todos'))
+      },
+      url: '/api/todos'
+
+    });
   },
   addTodo: function(newTitle){
     if (newTitle.length > 0){

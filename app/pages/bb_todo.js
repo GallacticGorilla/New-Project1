@@ -8,8 +8,11 @@ import bbtodoView from '../views/bb_todoView';
 var Controller = Backbone.View.extend({
   model: new bbTodoModel(),
   initialize: function(){
-    this.model.fetch();
-    this.render();
+    // fetch will call render when done
+    var that = this;
+    this.model.fetch(function(){
+      that.render();
+    });
   },
   render: function(){
     var todos = this.model.get('todos');
