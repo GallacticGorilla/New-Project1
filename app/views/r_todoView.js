@@ -22,7 +22,7 @@ var TodoView = Backbone.View.extend({
         todo.id = index + 1;
         return <TodoItemView key={index} item={todo} controller={controller} />;
       });
-    ReactDOM.render( npm
+    ReactDOM.render(
       <div>{todosHtml} </div>, 
       this.$el.find('.todo-list') [0]
       );
