@@ -30,7 +30,7 @@ var configs = {
     loaders: [
       {
         test: /\.js?$|\.jsx?$/,
-        loaders: ['babel?'],
+        loaders: ['babel'],
         exclude: /node_modules/
       },
       {
