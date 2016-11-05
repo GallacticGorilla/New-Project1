@@ -16,6 +16,7 @@ import canvasController from './pages/canvas';
 import bbTodoController from './pages/bb_todo';
 import homePageController from './pages/homePage';
 import photoSearchController from './pages/photoSearch';
+import rTodoController from './pages/r_todo';
 
 
 //import multimediaController from './pages/multimedia';
@@ -46,6 +47,9 @@ $(function(){
     break;
   case '/pages/dataTest.html':
     new photoSearchController();
+    break;
+  case '/pages/r_todo.html':
+    new rTodoController();
     break;
   }
 

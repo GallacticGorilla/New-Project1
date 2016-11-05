@@ -18,6 +18,9 @@
 		<a href="/pages/dataTest.html">Ajax</a>
 	</li>
 	<li>
+		<a href="/pages/r_todo.html">React To Do</a>
+	</li>
+	<li>
 		<a href="/">Home Page</a>
 	</li>
 </ul>	
