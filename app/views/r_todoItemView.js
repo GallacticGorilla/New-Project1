@@ -15,6 +15,8 @@ var ItemView = React.createClass({
     if (this.props.item.completed){
       baseClasses += ' completed';
     }
+
+    
       //class need to be "className"
     return (
       <div className={baseClasses}>

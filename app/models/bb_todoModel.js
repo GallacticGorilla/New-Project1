@@ -1,6 +1,6 @@
 var $ = window.$;
 import Backbone from 'backbone';
-
+ 
 var model = Backbone.Model.extend({
   defaults: {
     todos: []
@@ -14,8 +14,8 @@ var model = Backbone.Model.extend({
       success: function(todos){
         that.set('todos', todos);
         if (typeof callback === 'function'){
-        callback();
-       }
+          callback();
+        }
       }
     });
   },

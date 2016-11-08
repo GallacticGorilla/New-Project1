@@ -14,8 +14,8 @@ var model = Backbone.Model.extend({
       success: function(todos){
         that.set('todos', todos);
         if (typeof callback === 'function'){
-        callback();
-       }
+          callback();
+        }
       }
     });
   },

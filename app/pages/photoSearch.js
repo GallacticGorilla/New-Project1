@@ -29,7 +29,7 @@ var controller = Backbone.View.extend({
     var photoData = JSON.parse(response);
     var photos = photoData.photos.photo;
     var photoHtml = photos.map(function(photo){
-        var url = 'https://farm' + photo.farm + '.staticflickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '.jpg';
+      var url = 'https://farm' + photo.farm + '.staticflickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '.jpg';
       return '<li><img src="' + url + '"/>/li>';
     });
     this.$el.find('.photo-list').html(photoHtml);
